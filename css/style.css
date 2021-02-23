@@ -90,6 +90,69 @@ body {
 
 /* メインビュー */
 
-.main__picture{
-    
+.main__visual{
+    position: relative;
+    width: 100%;
+}
+
+.first__content{
+    position: absolute;
+    padding: 60px 180px;
+    z-index: 999;
+    color: #ffffff;
+}
+
+.sub__copy{
+    font-size: 1.1vw;
+    font-weight: 700;
+    margin-bottom: 0.9vw;
+}
+
+.main__copy{
+    font-size: 2.3vw;
+    font-weight: 700;
+    line-height: 3vw;
+}
+
+.main__button{
+    display: flex;
+    margin-top: 3vw;
+}
+
+.button__contact{
+    font-size: 1.1vw;
+    font-weight: 600;
+    background-color: #d28200;
+    padding: 1vw 2.3vw;
+    border-radius: 30px;
+    margin-right: 2vw;
+}
+
+.button__docment{
+    font-size: 1.1vw;
+    font-weight: 600;
+    background-color: #d28200;
+    padding: 1vw 3.5vw;
+    border-radius: 30px;
+}
+
+.background__maincolor{
+    position: relative;
+    height:25vw;
+    width: 100%;
+    background-color: #2c4720;
+}
+
+.top__visual{
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    height:27vw;
+    width: 40vw;
+    z-index: 999;
+}
+
+.background__subcolor{
+    height: 5vw;
+    background-color: #233919;
 }
